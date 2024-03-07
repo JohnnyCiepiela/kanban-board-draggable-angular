@@ -10,8 +10,8 @@ describe('MainViewComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [MainViewComponent]
     })
-    .compileComponents();
-    
+      .compileComponents();
+
     fixture = TestBed.createComponent(MainViewComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

@@ -10,18 +10,19 @@ import { Column } from '../../models/column.model';
 })
 export class MainViewComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+  }
 
   board: Board = new Board('My Board', [
     new Column('Ideas', [
-      "Some random idea",
-      "This is another random idea",
-      "I've built this app"
+      'Some random idea',
+      'This is another random idea',
+      'I\'ve built this app'
     ]),
     new Column('Research', [
-      "Lorem ipsum",
-      "Foo",
-      "This was in the 'Research' column"
+      'Lorem ipsum',
+      'Foo',
+      'This was in the \'Research\' column'
     ]),
     new Column('Todo', [
       'Get to work',
