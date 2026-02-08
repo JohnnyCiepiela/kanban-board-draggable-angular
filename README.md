@@ -1,5 +1,5 @@
 # kanban-board-draggable-angular
-Kanban tasks board in Angular with draggable cards that uses Bulma for styling.
+Kanban tasks board in Angular with draggable cards. Bulma for styling.
 
 ## Running the app
 To run the app use **ng serve** while in **kanban-board** directory.
